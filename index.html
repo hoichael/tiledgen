@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>-> </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<div id="step1-container">
+    <div id="step1">
+        
+        <form id=step1-form class="fake-3d-big">
+            <br>
+            <label for="map-input">MAP PNG</label><br><br>
+            <input type="file" id="map-input" accept=".png"><br><br><br><br>
+            
+            <label for="tileset-input">TILESET PNG</label><br><br>
+            <input type="file" id="tileset-input" accept=".png"><br><br><br><br>
+
+            <div id="tile-width-text">TILE WIDTH</div>
+            <div id="tile-height-text">TILE HEIGHT</div>
+            <br><br>
+
+            <input type="number" id="tile-width-input">
+            <input type="number" id="tile-height-input">
+
+            <br><br><br><br>
+
+            <label for="tmx-name-input">TMX OUTPUT NAME</label><br><br>
+            <input type="text" id="tmx-name-input"><br><br><br><br>
+
+            <label for="tsx-name-input">TSX OUTPUT NAME</label><br><br>
+            <input type="text" id="tsx-name-input"><br><br><br><br>
+    
+            <button type="button" id="continue-btn" class="fake-3d" value="Continue">CONTINUE</button>
+        </form> 
+
+        <div id="step1-tile1" class="fake-3d grey"></div>
+        <div id="step1-tile2" class="fake-3d grey"></div>
+        <div id="step1-tile3" class="fake-3d grey"></div>
+        <div id="step1-tile4" class="fake-3d grey"></div>
+        <div id="step1-tile5" class="fake-3d grey"></div>
+        <div id="step1-tile6" class="fake-3d grey"></div>
+        <div id="step1-tile7" class="fake-3d grey"></div>
+        <div id="step1-tile8" class="fake-3d grey"></div>
+        <div id="step1-tile9" class="fake-3d grey"></div>
+        <div id="step1-tile10" class="fake-3d grey"></div>
+        <div id="step1-tile11" class="fake-3d grey"></div>
+        <div id="step1-tile12" class="fake-3d grey"></div>
+        <div id="step1-tile13" class="fake-3d grey"></div>
+        <div id="step1-tile14" class="fake-3d grey"></div>
+        <div id="step1-tile15" class="fake-3d grey"></div>
+        <div id="step1-tile16" class="fake-3d grey"></div>
+
+    </div>
+</div>
+
+<div id="step1.5" class="hide">
+    <canvas id="info-canvas"></canvas>
+</div>
+    
+    <div id="step2" class="hide">
+
+        <div id="step2-container">
+            <div id="table-div" class="fake-3d">
+                <table id="color-table" class="fake-3d"></table>
+                <br><br><br>
+                <button id="tile-btn" class="fake-3d">></button>
+            </div>
+
+            <div id="tileset-div"><canvas id="tileset-canvas" class="fake-3d" width="400" height="400"></canvas></div> 
+            <div id="map-div"><canvas id="map-canvas" class="fake-3d" width="1100" height="550"></canvas></div>
+
+            <div id="step2-tile1" class="fake-3d grey"></div>
+            <div id="step2-tile2" class="fake-3d grey"></div>
+            <div id="step2-tile3" class="fake-3d grey"></div>
+            <div id="step2-tile4" class="fake-3d grey"></div>
+            <div id="step2-tile5" class="fake-3d grey"></div>
+            <div id="step2-tile6" class="fake-3d grey"></div>
+        </div>
+
+    </div>
+
+    <div id="step3" class="hide">
+        <div id="step3-container">
+            <button id="download-tmx" class="fake-3d-big">DOWNLOAD<br><br><br>TMX</button>
+            <button id="download-tsx" class="fake-3d-big">DOWNLOAD<br><br><br>TSX</button>
+            <div id="step3-tile1" class="fake-3d grey"></div>
+            <div id="step3-tile2" class="fake-3d grey"></div>
+            <div id="step3-tile3" class="fake-3d grey"></div>
+            <div id="step3-tile4" class="fake-3d grey"></div>
+            <div id="step3-tile5" class="fake-3d grey"></div>
+            <div id="step3-tile6" class="fake-3d grey"></div>
+            <div id="step3-tile7" class="fake-3d grey"></div>
+            <div id="step3-tile8" class="fake-3d grey"></div>
+            <div id="step3-tile9" class="fake-3d grey"></div>
+            <div id="step3-tile10" class="fake-3d grey"></div>
+            <div id="step3-tile11" class="fake-3d grey"></div>
+            <div id="step3-tile12" class="fake-3d grey"></div>
+            <div id="step3-tile13" class="fake-3d grey"></div>
+            <div id="step3-tile14" class="fake-3d grey"></div>
+            <div id="step3-tile15" class="fake-3d grey"></div>
+            <div id="step3-tile16" class="fake-3d grey"></div>
+            <div id="step3-tile17" class="fake-3d grey"></div>
+            <div id="step3-tile18" class="fake-3d grey"></div>   
+        </div>  
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
